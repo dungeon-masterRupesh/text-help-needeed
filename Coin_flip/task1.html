@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Bootstrap Core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Scrolling CSS -->
+  <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+  <!-- Off Canvas CSS -->
+  <link href="../css/jasny-bootstrap.min.css" rel="stylesheet">
+
+  <!-- Slider CSS -->
+  <link href="../css/bootstrap-slider.min.css" rel="stylesheet">
+
+  <!-- Select CSS -->
+  <link href="../css/bootstrap-select.min.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="../css/main.css" rel="stylesheet">
+
+  <!-- Visualization CSS -->
+  <link href="./CSS.css" rel="stylesheet">
+
+  <!-- MathJax JS -->
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+<link rel="stylesheet" type="text/css" href="CSS.css">
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="../js/d3.min.js"></script>
+<script src="../js/d3.tip.v0.6.3.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<div class="row">
+<div class=col-md-4 style="background-color:lavender;">
+<div id='coin'>
+<img src="https://upload.wikimedia.org/wikipedia/en/5/52/British_fifty_pence_coin_2015_obverse.png"/>
+</div>
+<div id='button'>
+  Flip Once
+</div>
+<div id='multiple'>
+  Flip Multiple
+</div>
+
+<div id='reset'>
+  Reset
+</div>
+<div id='result'>
+</div>
+<div id='headsCounter'>
+</div>
+<div id='tailsCounter'>
+</div>
+</div>
+<div id='graphs' class=col-md-8 style="background-color:lavenderblush;">
+</div>
+</div>
+<section id="third" class="third-section">
+        <div class="container">
+            <div class="row">
+              <div class="col-xs-4">
+                  <div id='svgProbCP'></div>
+                </div>
+                <div class="col-xs-8">
+                    <div id='svgBallCP'></div>
+                    <div id="ballControl">
+                        <div class="btn btn-default ballBtns" id="start" style="display:none">Start Ball Drop</div>
+                        <div class="btn btn-default ballBtns" id="stop">Stop Ball Drop</div>
+                    </div>
+                    <div id="perspectiveControl">
+                        <label>Perspective:</label>
+                        <div class="btn btn-default perspective" id="a">A</div>
+                        <div class="btn btn-default perspective" id="b">B</div>
+                        <div class="btn btn-default perspective" id="c">C</div>
+                        <div class="btn btn-default perspective active" id="universe">Universe</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- D3 -->
+        <script src="../js/d3.min.js"></script>
+
+        <!-- jQuery -->
+        <script src="../js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../js/bootstrap.min.js"></script>
+
+        <!-- Scrolling Nav JavaScript -->
+        <script src="../js/jquery.easing.min.js"></script>
+        <script src="../js/scrolling-nav.js"></script>
+
+        <!-- Off Canvas Menu JavaScript -->
+        <script src="../js/jasny-bootstrap.min.js"></script>
+
+        <!-- jstat -->
+        <script src="../js/jstat.min.js"></script>
+
+        <!-- Slider JavaScript -->
+        <script src="../js/bootstrap-slider.min.js"></script>
+
+        <!-- Select JavaScript -->
+        <script src="../js/bootstrap-select.min.js"></script>
+
+        <!-- Tool Tip JavaScript -->
+        <script src="../js/d3.tip.v0.6.3.js"></script>
+
+        <!-- Main JavaScript -->
+        <script src="../js/main.js"></script>
+
+<script src="JS.js"></script>
+</body>
+</html>
